@@ -1,0 +1,27 @@
+{
+  "name": "next-midi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "easymidi": "^1.0.1",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "https-localhost": "^4.1.1",
+    "next": "^8.1.0",
+    "p5": "^0.8.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-p5-wrapper": "0.0.4",
+    "react-websocket": "^2.0.1",
+    "ws": "^7.0.0"
+  }
+}
