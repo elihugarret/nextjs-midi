@@ -15,7 +15,7 @@ const outputs = easymidi.getOutputs();
 console.log(outputs)
 
 // const input = new easymidi.Input('Launchkey Mini 24:0')
-const output = new easymidi.Output('Midi Through 14:0')
+const output = new easymidi.Output('Driver IAC Bus 1')
 
 app
     .prepare()

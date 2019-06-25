@@ -6,9 +6,9 @@ export default function sketch (p) {
     let bw = true
 
     window.mic = new p5.AudioIn()
-
-    p.setup = () => {        
-        mic.start()
+    mic.start()
+    
+    p.setup = () => {     
         p.createCanvas(p.windowWidth, p.windowHeight)
         p.background(0)
         p.noFill()
@@ -19,7 +19,8 @@ export default function sketch (p) {
 
     p.draw = () => {
         let micLevel = mic.getLevel()
-        if (micLevel > 0.2) {
+        console.log(micLevel)
+        if (micLevel > 0.05) {
             p.background(0)
             reset()
             // p.strokeWeight(p.random(micLevel))

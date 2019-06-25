@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-            <script src='/static/p5.min.js' />
+            <script src='/static/p5.js' />
             <script src='/static/p5.sound.js' />
         </Head>
         <body>
